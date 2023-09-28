@@ -3,7 +3,8 @@ title: "exercise_1"
 author: "Ian Verbeylen"
 date: "2023-09-26"
 output:
-  pdf_document: default
+  pdf_document:
+    toc: TRUE
 ---
 
 ```{r setup, include=FALSE}
@@ -39,6 +40,7 @@ iris is a data frame with 150 cases (rows) and 5 variables (columns) named:
 - Petal.Length
 - Petal.Width
 - Species
+- Simple change
 
 ## Source
 
